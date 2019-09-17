@@ -1,5 +1,5 @@
 # Minor-project-2019
-<li><b>Read more about it here: </b>
+<li><b>Read more about the project here: </b>
   https://prankshaw.github.io/minor-project-2019/</li>
 <li><b> Project Wiki: </b>
   https://github.com/prankshaw/minor-project-2019/wiki</li>
@@ -29,5 +29,6 @@ Research to be done!!
 
 ## Important Links
 <li> Automated Scoring- https://automatedscoring.herokuapp.com/  </li>
+<li> Landing Page- https://minorproject.netlify.com </li>
   
 # Work in Progress :)
