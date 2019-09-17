@@ -1,0 +1,31 @@
+.services {
+  padding: 4rem 0;
+  color: #333;
+
+  &-div {
+    position: relative;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    &-left {
+      text-align: center;
+      width: 40%;
+      & img {
+        width: 50%;
+      }
+      & p {
+        padding: 0 5rem;
+      }
+    }
+    &-right {
+      text-align: center;
+      width: 40%;
+      & img {
+        width: 50%;
+      }
+      & p {
+        padding: 0 5rem;
+      }
+    }
+  }
+}
