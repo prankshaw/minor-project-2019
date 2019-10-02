@@ -1,0 +1,127 @@
+@import "../variables.scss";
+
+.interviewCont {
+  height: 100%;
+}
+.interview {
+  display: flex;
+
+  height: 100%;
+  //   align-items: stretch;
+  @media screen and (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+  &-left {
+    width: 0%;
+    // height: 0%;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #294f6d;
+    padding: 3rem 0;
+    // font-weight: bold;
+    color: #fff;
+    z-index: 10;
+    transform: translateX(-100%);
+    position: relative;
+    transition: all 0.5s ease;
+
+    &.show {
+      width: 25%;
+      transform: translateX(0%);
+      @media screen and (max-width: 900px) {
+        width: 35%;
+      }
+      @media screen and (max-width: 600px) {
+        width: 92%;
+      }
+    }
+
+    button {
+      position: absolute;
+      right: -5.8rem;
+      top: 50%;
+      transform: translateY(-50%) rotateZ(-90deg);
+    }
+    .question-list {
+      padding-top: 1rem;
+      visibility: hidden;
+      //   opacity: 0;
+      &.hide {
+        visibility: visible;
+      }
+
+      h3 {
+        padding: 25px;
+        text-align: center;
+      }
+
+      &-item {
+        padding: 20px 25px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+  &-right {
+    text-align: center;
+    padding: 4rem 0;
+    flex-grow: 1;
+    //width: 200%;
+    background-color: $light-back;
+    transition: all 0.2s ease;
+    @media screen and (max-width: 700px) {
+      width: 0%;
+    }
+
+    &.hide {
+      width: 75%;
+      @media screen and (max-width: 900px) {
+        width: 65%;
+      }
+      @media screen and (max-width: 600px) {
+        width: 0%;
+        visibility: hidden;
+        opacity: 0;
+      }
+    }
+
+    h1 {
+      padding: 2rem 0;
+      color: #666;
+    }
+
+    canvas {
+      width: 40rem;
+      @media screen and (max-width: 900px) {
+        width: 80%;
+      }
+    }
+  }
+}
+
+.btn-record {
+  margin-right: 1rem;
+  div {
+    background-color: #294f6d !important;
+  }
+}
+
+.webcamera {
+  position: absolute;
+  right: 0rem;
+  bottom: 0rem;
+
+  @media screen and (max-width: 600px) {
+    right: 50%;
+    bottom: 2rem;
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+  }
+}

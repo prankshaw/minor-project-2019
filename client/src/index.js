@@ -3,6 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import USERS from "./auth/dummyusers";
+
+localStorage.setItem("users", JSON.stringify(USERS));
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

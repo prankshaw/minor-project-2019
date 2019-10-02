@@ -1,8 +1,11 @@
 import React, { Component } from "react";
-import { withRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import registersvg from "./register.jpg";
 import "./auth.scss";
 import { Container, Form, Button, Divider } from "semantic-ui-react";
+
+import Navbar from "../layout/Navbar";
+
 class Register extends Component {
   constructor() {
     super();
@@ -19,17 +22,30 @@ class Register extends Component {
 
   onSubmit = e => {
     e.preventDefault();
-    const newUser = {
-      name: this.state.name,
+    // const newUser = {
+    //   name: this.state.name,
+    //   email: this.state.email,
+    //   password: this.state.password,
+    //   password2: this.state.password2
+    // };
+
+    const user = {
       email: this.state.email,
-      password: this.state.password,
-      password2: this.state.password2
+      password: this.state.password
     };
+
+    let USERS = JSON.parse(localStorage.getItem("users"));
+    USERS.push(user);
+    localStorage.setItem("users", JSON.stringify(USERS));
+    USERS = JSON.parse(localStorage.getItem("users"));
+
+    this.props.history.push("/login");
   };
 
   render() {
     return (
       <div className="white-back">
+        <Navbar />
         <Container>
           <div className="register">
             <div className="register-left">
