@@ -1,7 +1,13 @@
 @import "variables.scss";
+
+#root {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
+  // height: 500px;
   box-sizing: border-box;
   margin-top: 75px !important;
   -webkit-font-smoothing: antialiased;
@@ -16,6 +22,8 @@ body {
 
 html {
   box-sizing: border-box;
+  // height: auto;
+  // overflow-y: hidden;
   font-size: 14px !important;
   @media screen and (max-width: 1000px) {
     font-size: 13px !important;
@@ -33,10 +41,10 @@ code {
     monospace;
 }
 
-/* a {
-	text-decoration: none;
-	color: black;
-} */
+// a {
+//   text-decoration: none;
+//   color: #555;
+// }
 
 .main-backcolor {
   background-color: $main;

@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import "./Landing.scss";
 import { Container, Button } from "semantic-ui-react";
 
+import Navbar from "./Navbar";
 import Background from "./bg.jpg";
 import Services from "./Services";
 class Landing extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <section className="landing">
           <Container>
             <div className="landing-top">

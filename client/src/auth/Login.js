@@ -4,6 +4,8 @@ import { Button, Form, Container, Divider } from "semantic-ui-react";
 
 import loginsvg from "./login.jpg";
 import "./auth.scss";
+
+import Navbar from "../layout/Navbar";
 class Login extends Component {
   constructor() {
     super();
@@ -24,11 +26,22 @@ class Login extends Component {
       email: this.state.email,
       password: this.state.password
     };
+    let USERS = JSON.parse(localStorage.getItem("users"));
+
+    console.log(USERS);
+
+    if (
+      USERS.find(
+        usr => usr.email === user.email && usr.password === user.password
+      )
+    )
+      this.props.history.push("/dashboard");
   };
 
   render() {
     return (
       <div className="white-back">
+        <Navbar />
         <Container>
           <div className="login">
             <div className="login-left">

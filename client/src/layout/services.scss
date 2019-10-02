@@ -7,9 +7,25 @@
     margin: 3rem 0;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    & .ui.vertical.divider {
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
+    }
     &-left {
       text-align: center;
       width: 40%;
+      margin-bottom: 5rem;
+      @media screen and (max-width: 900px) {
+        width: 50%;
+      }
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
       & img {
         width: 50%;
       }
@@ -20,6 +36,12 @@
     &-right {
       text-align: center;
       width: 40%;
+      @media screen and (max-width: 700px) {
+        width: 50%;
+      }
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
       & img {
         width: 50%;
       }
