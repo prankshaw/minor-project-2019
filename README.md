@@ -1,9 +1,17 @@
 # Minor-project-2019
+## Working Demo: https://minorproject.netlify.com/
+### If you want to visit the working functionalities without signing in, visit from here: 
+<strong> Live Interview Practice : https://minorproject.netlify.com/audio-practice</strong></br>
+<strong> Essay Writing with Automated scoring and Plagiarism Checker: https://minorproject.netlify.com/audio-practice</strong></br>
+<hr>
 <li><b>Read more about the project here: </b>
   https://prankshaw.github.io/minor-project-2019/</li>
 <li><b> Project Wiki: </b>
   https://github.com/prankshaw/minor-project-2019/wiki</li>
-  
+<br>
+
+# About Project
+## Models
 ### 4 models to be completed are:-
 <ul><li>Automated scoring</li><li>Audio Cofidence Analysis</li> <li>Speech to Text coversion</li><li>Plagiarism checker</li></ul>
 
@@ -21,11 +29,11 @@ The accuracy is calculated by Quadratic Weighted Kappa(QWK), which measures the 
 
 #### Text to speech
 
-Recurrent Neural Network will be used for this model. Existing API can also be employed for better accuracy.
+Recurrent Neural Network will be used for this model. Existing Web speech API with custom wrapper is employed for better accuracy.
 
 #### Voice sentiment analysis
 
-Research to be done!!
+Audio capturing and recognition using webspeech API will be performed and then Support Vector Machine(SVM) is used along with existing API to perform analysis on recorded audio. 
 
 ## Important Links
 <li> Automated Scoring- https://automatedscoring.herokuapp.com/  </li>
@@ -33,5 +41,4 @@ Research to be done!!
   
 # Work in Progress :)
 
-## Future Iterations
-https://github.com/nityansuman/automated-test-platform
+
