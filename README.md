@@ -1,8 +1,8 @@
 # Minor-project-2019
 ## Working Demo: <a href="https://minorproject.netlify.com/">minorproject.netlify.com</a>
 ### If you want to visit the working functionalities without signing in, visit from here: 
-<strong> Live Interview Practice : <a href="https://minorproject.netlify.com/audio-practice">minorproject.netlify.com/audio-practice</a></strong></br>
-<strong> Essay Writing with Automated scoring and Plagiarism Checker: <a href="https://minorproject.netlify.com/audio-practice">minorproject.netlify.com/audio-practice</a></strong></br>
+<strong> Live Interview Practice : <a href="https://minorproject.netlify.com/audio-practice">minorproject.netlify.com/audio-practice</a></strong>  
+<strong> Essay Writing with Automated scoring and Plagiarism Checker: <a href="https://minorproject.netlify.com/audio-practice">minorproject.netlify.com/audio-practice</a></strong>  
 <hr>
 <li><b>Read more about the project here: </b>
   <a href="https://prankshaw.github.io/minor-project-2019/">prankshaw.github.io/minor-project-2019</a></li>
