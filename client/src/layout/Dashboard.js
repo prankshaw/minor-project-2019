@@ -16,10 +16,10 @@ class Dashboard extends Component {
 
           <div className="path">
             <div className="path-left">
-              <a href="#">
+              <a href="https://prankshaw.github.io/minor-project-2019/">
                 <img src={Essay} alt="Essay Scoring" />
               </a>
-              <a href="#">
+              <a href="https://prankshaw.github.io/minor-project-2019/">
                 <h3>Essay Practice</h3>
               </a>
             </div>
