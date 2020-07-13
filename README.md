@@ -18,8 +18,8 @@ The Project is a <b>Deep-Learning based Interview preparation platform</b> inclu
 <ul>
   <li><b>Operations of Working-</b></li> Users can practice live interview by choosing from a desired set of questions. We included the live interview question panel, microphone, and video (camera) options, allowing the user to improve see how they passively react and improve themselves. Users can now click the play button, after choosing the desired questions and can answer them, which will be recorded and can be replayed. 
 
-<img src="readimg/virtualinterviewworking1.jpg" width="48" alt="Working Image1">
-<img src="readimg/virtualinterviewworking2.jpg" width="48" alt="Working Image2">
+<img src="readimg/virtualinterviewworking1.jpg" width="200" alt="Working Image1">
+<img src="readimg/virtualinterviewworking2.jpg" width="200" alt="Working Image2">
 
 <li><b>Model Description-</b> The <b>Recurrent Neural Network</b> are to be used for <b>Text to Speech model</b>. Existing <b>Web speech API with custom wrapper</b> is employed for a better accuracy.</li>
 </ul>
@@ -28,8 +28,8 @@ The Project is a <b>Deep-Learning based Interview preparation platform</b> inclu
 🌟🌟 The <b>Automated Scroring Model</b>  is not currently deployed and can be accessed by running at local server.
 <ul>
 <li><b>Operations of Working-</b> Users will be given an option of choosing from a set of questions with minimum and maximum scores assigned to them. After choosing a certain question, a descriptive question will be available to them, using which they can enhance their understanding of the question. The model will test their usage of vocabulary, context-driven word usage, analysis of speech used, grammatical and spelling errors, length and structure of essay submitted and various other factors to provide a score.</li>
-  
-![Automated Scoring Model](readimg/Automatedscoring.gif)
+
+<img src="readimg/Automatedscoring.gif" alt="Working Image1">  
 
 <li><b>Model Description-</b>  The model's accuracy is calculated by <b>Quadratic Weighted Kappa(QWK)</b>, which measures the agreement between two raters. The model architecture consists of 2 Long Short Term Memory(LSTM) layers with a Dense output layer. The final layer uses the Relu activation function. The QWK is calculated by training model on the dataset using 5-Fold Cross Validation and taking the average for all five folds.</li>
 </ul>  
