@@ -20,7 +20,7 @@ The Project is a <b>Deep-Learning based Interview preparation platform</b> inclu
 
  Basic Layout              |  Working Structure
 :-------------------------:|:-------------------------:
-<img src="readimg/virtualinterviewworking1.jpg" width="500" height="400" alt="Working Image1">  |  <img src="readimg/virtualinterviewworking2.jpg" width="500" height="400" alt="Working Image2">
+<img src="readimg/virtualinterviewworking1.jpg" width="500" height="340" alt="Working Image1">  |  <img src="readimg/virtualinterviewworking2.jpg" width="500" height="340" alt="Working Image2">
 
 <li><b>Model Description-</b> The <b>Recurrent Neural Network</b> are to be used for <b>Text to Speech model</b>. Existing <b>Web speech API with custom wrapper</b> is employed for a better accuracy.</li>
 </ul>
