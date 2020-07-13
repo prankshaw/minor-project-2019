@@ -1,4 +1,10 @@
 # Automated Interview Preparation
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![codecov](https://codecov.io/gh/prankshaw/minor-project-2019/branch/master/graph/badge.svg)](https://codecov.io/gh/prankshaw/minor-project-2019)
+[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+<a href="../../issues"><img alt="Issues Open" src="https://img.shields.io/github/issues/prankshaw/minor-project-2019?color=pink"></a>
+<a href="../../issues"><img alt="Forks" src="https://img.shields.io/github/forks/prankshaw/minor-project-2019?color=purple"></a>
+<a href="../../issues"><img alt="Stars" src="https://img.shields.io/github/stars/prankshaw/minor-project-2019?color=yellow"></a>
 ### Working Demo: <a href="https://minorproject.netlify.com/">minorproject.netlify.com</a> 
 
 🌟🌟 The <b>Automated Scroring Model</b>  is not currently deployed and can be accessed by running at local server. See working demo and steps to run locally below 
