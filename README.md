@@ -18,8 +18,9 @@ The Project is a <b>Deep-Learning based Interview preparation platform</b> inclu
 <ul>
   <li><b>Operations of Working-</b></li> Users can practice live interview by choosing from a desired set of questions. We included the live interview question panel, microphone, and video (camera) options, allowing the user to improve see how they passively react and improve themselves. Users can now click the play button, after choosing the desired questions and can answer them, which will be recorded and can be replayed. 
 
-<img src="readimg/virtualinterviewworking1.jpg" width="500" height="400" alt="Working Image1">
-<img src="readimg/virtualinterviewworking2.jpg" width="500" height="400" alt="Working Image2">
+ Basic Layout              |  Working Structure
+:-------------------------:|:-------------------------:
+<img src="readimg/virtualinterviewworking1.jpg" width="500" height="400" alt="Working Image1">  |  <img src="readimg/virtualinterviewworking2.jpg" width="500" height="400" alt="Working Image2">
 
 <li><b>Model Description-</b> The <b>Recurrent Neural Network</b> are to be used for <b>Text to Speech model</b>. Existing <b>Web speech API with custom wrapper</b> is employed for a better accuracy.</li>
 </ul>
