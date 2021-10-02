@@ -7,6 +7,7 @@
 
 🌟🌟 The <b>Automated Scroring Model</b>  is not currently deployed and can be accessed by running at local server. See working demo and steps to run locally below 
 
+<b> Project Description: </b> <a href="https://prankshaw.github.io/minor-project-2019/">prankshaw.github.io/minor-project-2019/</a><br/> 
 <b> Project Wiki: </b> <a href="https://github.com/prankshaw/minor-project-2019/wiki">github.com/prankshaw/minor-project-2019/wiki</a>
 <hr>
 The Project is a <b>Deep-Learning based Interview preparation platform</b> including functionalities such as 
